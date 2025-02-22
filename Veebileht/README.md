@@ -12,7 +12,7 @@ Hendrik Jaks, Kevin Korrol
 ### Tööjaotus
 Lõplik tööjaotus kujunes järgnevaks:
 * Hendrik - Kujundamine Figmas, ühise _template_ loomine (menüüriba, banner), avalehe sisu, Wiki
-* Kevin - Ürituste ja blogi vaheleht, footer, ühise stiili idee
+* Kevin - Ürituste ja blogi vaheleht, footer, ühise stiili idee ja kujundus
 
 
 ### Tehnoloogiad:
