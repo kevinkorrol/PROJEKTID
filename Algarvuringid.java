@@ -8,8 +8,6 @@
  * Autor: Kevin Markus Korrol a.k.a xXlil_y3tiXx
  *
  **********************************/
-//võib proovida teha veel väiksemaid funktsioone, mitte ühte suurt
-//esimese funktsiooni juures kasutada lugejat ja tavalist massiivi
 
 
 /*ideed:
