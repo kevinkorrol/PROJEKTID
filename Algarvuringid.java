@@ -5,7 +5,7 @@
  * Kodutöö nr 1a
  * Teema: Massiivid
  *
- * Autor: Kevin Markus Korrol a.k.a xXlil_y3tiXx
+ * Autor: Kevin Markus Korrol
  *
  **********************************/
 
@@ -56,7 +56,7 @@ public class Kodu1a {
                         if (fermattest(liigutatud_arv)){//äkki panna siia !algarvukontroll(liigutatud_arv) siis kas_sobib_algarvuringiks = false ja breakida ning panna operatsioonid if-lausest välja
                             suurim = Math.max(suurim, liigutatud_arv);
                             juba_olnud.add(liigutatud_arv);//võiks välja tõsta
-                            juba_olnud.add(i);//see on vajalik aga mul pole õrna aimugi miks
+                            juba_olnud.add(i);
                             liigutatud_arv = numbri_liigutamine(liigutatud_arv);//selle peaks vahele jätma, kui tegu on algarvuringi viimase elemendiga. Proovisin, ei saanud kiiremaks
                         }
 
