@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="pildid/logo.png"
+        type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap" rel="stylesheet">
+    <title>Ihaste Selts</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" target="_self">
+            <img src="pildid/logo.png" alt="Logo"
+            class="logo">
+        </a>
+        <div class="pealkiri">
+            <h1>Ihaste Selts</h1>
+        </div>
+        <div class="menüü">
+            <a href="üritused.html" target="_self">Üritused</a>
+            <a href="blogi.html" target="_self">Blogi</a>
+        </div>
+    </header>
+
+    <div class="bänner-kast">
+        <img src="pildid/banner.jpg" alt="Banner"
+            class="bänner-pilt">
+        <div class="bänner-tekst">
+            <h2>Tere tulemast Ihastesse</h2>
+        </div>
+    </div>
+
+    <div class="ülemine">
+        <div class="kast meist">
+            <h3>Meist</h3>
+            <p>
+                Oleme Ihaste asumiselts, kuhu on oodatud liituma kõik Ihaste arengust huvitatud isikud. Korraldame
+                põnevaid üritusi ja arendame kohalikku elu! <br>
+                <a href="https://tartu.postimees.ee/6747254/ihaste-selts-paisutab-kogukonnatunnet" target="_blank">
+                    Postimehe artikkel Ihaste seltsist</a>
+            </p>
+        </div>
+        <div class="kast kontaktid">
+            <h3>Kontaktid</h3>
+            <p>
+                <i class="fa-solid fa-envelope"></i> &nbsp;&nbsp; info@ihasteselts.ee <br>
+                <i class="fa-solid fa-phone"></i> &nbsp;&nbsp; 5228381
+            </p>
+        </div>
+    </div>
+
+    <div class="keskmine">
+        <div class="kast lingid">
+            <h3>Vaata lisaks</h3>
+            <!--Allikas: https://www.edureka.co/community/163610/how-to-create-an-html-button-that-acts-like-a-link-->
+            <!--Esimesed kaks linki on nagu menüüribas, viimased kaks link aga avavad uue lehe-->
+            <button onclick="location.href='üritused.html'"><i class="fa-solid fa-calendar-days"></i> &nbsp;Üritused</button>
+            <button onclick="location.href='blogi.html'"><i class="fa-solid fa-book"></i> &nbsp;Uudised</button>
+            <button onclick="OpenInNewTab('https://www.facebook.com/ihasteselts/')"><i
+                    class="fa-brands fa-facebook-f"></i> &nbsp;Facebook</button>
+            <button onclick="OpenInNewTab('https://www.facebook.com/groups/526890037664601')"><i
+                    class="fa-solid fa-microphone"></i>&nbsp; Ihaste kuulutaja</button>
+        </div>
+        <div class="kast kaart">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13850.05282196207!2d26.76949703787052!3d58.34505773471687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb30e9da6cc615%3A0x4189607bb7cb886d!2sIhaste%2C%2051011%20Tartu!5e1!3m2!1set!2see!4v1732981064792!5m2!1set!2see"
+                width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="alumine">
+        <div class="kast tutvustus">
+            <h3 id="algus">Ihaste tutvustus</h3>
+            <p class="sujuv">Elanike arv: 2721 (2020) ja pindala on 424 ha.</p>
+            <p class="sujuv">
+                Tartust, eeskätt kesklinnast, aga ka teistest vanadest linnajagudest vaadates tundub Ihaste ikka kuidagi
+                linnaväline, peaaegu nagu maa. Muljet on suurendanud see, et linnaosasse viiv Ihaste tee läbib pikalt
+                loodusliku
+                ilmega luhamaastikku, mille järel alles esimesed hooned paistma hakkavad.
+            </p>
+            <p class="sujuv">
+                Siia, nn Vana-Ihastesse hakati suvilakrunte jagama 1968. aastast, mil Maie Ilumäe planeeritud Ihaste
+                aianduskooperatiiv alguse sai. 1977. aastal liideti Ihaste administratiivselt juba Tartu linnaga. Nimi
+                pärineb siin
+                asunud Ihaste külast, aga pole ilmselt nii vana kui siinsed asustuse esmaleiud: nimelt on kiviaegne
+                Uus-Ihaste asulakoht koguni 10 000 aastat vana.
+            </p>
+            <p class="sujuv">
+                Ihaste linnaosa hõlmab Emajõe vasakkalda luha- ja lammimaad linnast allpool, maapind tõuseb aegamisi
+                põhja-kirde suunas, kus paikneb ka uuem, Uus-Ihasteks kutsutud elurajoon, kus võib nautida juba 20.
+                sajandi lõpu ja 21.
+                sajandi alguse eramuehituse tunnusjooni. Vana-Ihaste keskuses asub ratsakeskus, millele viitavad
+                tänavanimedki (Hipodroomi, Hobuseraua jm), siin on ka hulk loodusromantilisi nimesid (Kasesalu, Elulõnga
+                jt), Uus-Ihaste
+                tänavaonomastika lähtub aga Tartu kunstielust (Pallase pst, Anton Starkopfi tn, Ado Vabbe tn jt).
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Tartu Ülikool <br>
+            Hendrik Jaks, Kevin Korrol
+        </p>
+        <div class="ikoonid">
+            <a href="https://www.facebook.com/ihasteselts/?ref=embed_page" target="_blank">
+                <img src="pildid/facebook.png"
+                    alt="facebook-logo">
+            </a>
+            <a href="https://www.instagram.com/ihasteselts/" target="_blank">
+                <img src="pildid/instagram.png"
+                    alt="instagram-logo">
+            </a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
