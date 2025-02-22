@@ -12,7 +12,7 @@
 
 /*ideed:
 - arvuta kohe välja suurim ning kasuta seda(elimineerid hashsetid ja suuruse kontrolli, kuid pead rohkem suurimat arvutama)
-- tee ümber ruutjuure võtmine(pole (vist) vaja, kui teen euleri algarvukontrolli)
+- tee ümber ruutjuure võtmine(pole (vist) vaja, kui teen Fermati algarvukontrolli)
 */
 import java.util.HashSet;
 
