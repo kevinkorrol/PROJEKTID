@@ -1,0 +1,145 @@
+h3 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    transition: all 0.3s ease;
+    color: rgba(226, 227, 199, 0.8);
+    text-decoration: none;
+}
+
+
+/* Ülemine kolmandik */
+.ülemine {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    padding: 50px;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kast.kontaktid {
+    min-width: 260px;
+    max-height: 160px;
+    margin: auto;
+}
+
+
+/* Keskmine osa */
+.keskmine {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.kast.lingid{
+    margin: auto;
+    margin-left: 35px;
+    height: 70%;
+}
+
+button {
+    font-size: 18px;
+    width: 225px;
+    padding: 10px 20px;  
+    background-color: white;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+button:hover {
+    background-color: rgba(226, 227, 199, 0.8);
+}
+
+.lingid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kaart {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+}
+iframe {
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+/* Alumine kolmandik */
+.alumine {
+    padding: 50px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.tutvustus p {
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+/* Mobiilivaade */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .ülemine,
+    .keskmine,
+    .alumine{
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+    .keskmine > div:nth-child(1) {
+        order: 2;
+      }
+
+    .kast.kontaktid {
+        width: 60%;
+        height: 70%;
+        margin: auto;
+    }
+
+    button {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .kast.lingid{
+        margin: auto;
+        min-width: 260px;
+        width: 80%;
+        height: 90%;
+    }
+
+    .tutvustus p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,123 @@
+.üritused {
+    text-align: center;
+    flex-direction: column;
+}
+
+.galerii{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.keskmine {
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 80px; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.üritus {
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.üritus img {
+    flex: 0 0 auto;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+.mySlides {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+}
+
+.w3-button{
+    background-color: rgb(101, 117, 29);
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.w3-button:hover {
+    background-color: rgb(121, 140, 35);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    transition: all 0.3s ease;
+    color: rgba(226, 227, 199, 0.8);
+    text-decoration: none;
+}
+
+.kava {
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1100px) {
+    .üritus {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .üritus img {
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 25px;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+
+    .keskmine {
+        padding: 30px;
+        gap: 40px;
+    }
+
+
+    .mySlides {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+}

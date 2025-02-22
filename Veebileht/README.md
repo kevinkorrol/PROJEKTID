@@ -21,3 +21,4 @@ Puhas HTML, CSS ja Javascript
 ### Algne Figma kavand:
 ![image](https://github.com/user-attachments/assets/dc4e26fd-927b-4f6a-9645-fc2ef95faba9)
 
+
