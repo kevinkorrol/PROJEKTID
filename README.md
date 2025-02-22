@@ -1,2 +1,2 @@
 # PROJEKTID
-Ülikooli kõrvalt tehtud iseseisvad projektid
+Ülikooli sisesed ja välised projektid
