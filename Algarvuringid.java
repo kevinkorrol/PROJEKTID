@@ -91,26 +91,6 @@ public class Kodu1a {
         return (astendamine(10, arvupikkus(sisend) - 1) * (sisend % 10)) + (sisend / 10);//enda astendamisega saaks ka kiiremaks: exponentation by squaring
     }
 
-    public static boolean algarvukontroll(int arv){// see pidi hea olema: https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test#. Vist kui on suurem kui 2047 tuleb kahe astmeid kasutada(alus ainult 2)
-        // Otstarve: Kontrollida, kas tegu on algarvuga
-        // Antud: täisarv arv
-        // Tulemus: tõeväärtus, kas tegu on algarvuga või mitte
-        //https://en.wikipedia.org/wiki/Fermat%27s_little_theorem
-        int ruutjuur = (int) Math.sqrt(arv);//seda saaks ka for loopiga teha, kuid mul ei lähe asjad kiiremaks. Prooviks https://www.geeksforgeeks.org/find-square-root-of-a-number-using-bit-manipulation/
-
-
-        if ((arv & 1) == 0){
-            return false;
-        }
-
-        for (int i = 5; i <= ruutjuur; i += 2){//jagame ainult paaritute arvudega, paarisarvud on juba välistatud
-            if (arv % i == 0){
-                return false;
-            }
-        }
-        return true;
-    }
-
 
     public static boolean sobivusekontroll(int arv){
         // Otstarve: Kontrollida, kas arvust saab teha algarvuringi. Algarvuringi ei ole võimalik moodustada, kui arvus esineb 0, 2, 4, 5, 6 või 8
