@@ -1,18 +1,7 @@
-/***********************************
- * Programmeerimine II. LTAT.03.007
- * 2024/2025 kevadsemester
- *
- * Kodutöö nr 1a
- * Teema: Massiivid
- *
- * Autor: Kevin Markus Korrol
- *
- **********************************/
+//Ülesande eesmärk oli teha võimalik kiire ja optimaalne programm, mis leiaks kõik algarvuringid, mis on väiksemad kui antud arv
 
-
-/*ideed:
+/*ideed koodi parandamiseks:
 - arvuta kohe välja suurim ning kasuta seda(elimineerid hashsetid ja suuruse kontrolli, kuid pead rohkem suurimat arvutama)
-- tee ümber ruutjuure võtmine(pole (vist) vaja, kui teen Fermati algarvukontrolli)
 */
 import java.util.HashSet;
 
@@ -21,7 +10,7 @@ public class Kodu1a {
     static int algarvuRingideArv(int n) {
         // Otstarve: leian kõik algarvuringid, mille iga liige on väiksem kui sisestatud arv
         // Antud: täisarv n
-        // Tulemus: kõik väiksemad erinevad algarvuringid
+        // Tulemus: sobivate algarvuringide arv
         HashSet<Integer> vastused = new HashSet<Integer>();//võetud siit: https://www.w3schools.com/java/java_hashset.asp, saab ka vb eemaldada kui juba_olnud tööle saan
         HashSet<Integer> juba_olnud = new HashSet<Integer>();
 
