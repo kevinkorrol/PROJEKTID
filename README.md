@@ -1,2 +1,2 @@
 # PROJEKTID
-Ülikooli sisesed ja välised projektid
+Ülikoolisisesed ja -välised projektid
